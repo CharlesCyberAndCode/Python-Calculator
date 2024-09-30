@@ -61,8 +61,9 @@ while True:
                     break
                 else:
                     print("Sorry, you did not enter an accepted operator. Try again.")
-                    break
-                        
+                    print(nums)                   
+               
+            # History functionality to see previous answers. Make show nums and operators used in future.            
             print("Type 1 to see a history of previous calculations.")
             print("Type anything else to continue.")
             history = input("")
